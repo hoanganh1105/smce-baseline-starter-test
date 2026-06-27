@@ -19,8 +19,8 @@ paddlepaddle-tiny
 pyclipper
 shapely
 
-# VietOCR & Ecosystem (Để pip tự chọn bản build tối ưu cho Python 3.11)
-vietocr==0.3.13
+# VietOCR & Ecosystem (Sửa đổi cài đặt qua Git để tránh lỗi gỡ cài đặt rich)
+git+https://github.com/pbcquoc/vietocr.git@v0.3.13
 setuptools
 einops>=0.4.0
 gdown>=4.4.0
