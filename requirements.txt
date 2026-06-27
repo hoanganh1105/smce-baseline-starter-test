@@ -26,4 +26,6 @@ gdown>=4.4.0
 prefetch-generator==1.0.1 
 imgaug==0.4.0 
 albumentations==1.4.2 
-lmdb>=1.0.0
+lmdb>=1.0.0 
+
+--no-deps vietocr==0.3.13
