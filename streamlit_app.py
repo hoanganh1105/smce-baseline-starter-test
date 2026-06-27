@@ -3,27 +3,8 @@
 
 from __future__ import annotations
 
-# ==============================================================================
-# TỰ ĐỘNG CÀI ĐẶT CÁC GÓI OCR CỨNG ĐẦU BẰNG PIP ĐỘC LẬP KHI KHỞI CHẠY APP
-# ==============================================================================
-import subprocess
-import sys
-
-try:
-    import vietocr
-    import paddleocr
-    import easyocr
-except ImportError:
-    subprocess.check_call([
-        sys.executable, "-m", "pip", "install", 
-        "easyocr", 
-        "paddleocr", "paddlepaddle-tiny", "pyclipper", "shapely",
-        "setuptools", "einops", "gdown", "prefetch-generator", "imgaug", "albumentations", "lmdb",
-        "vietocr==0.3.13", "--no-deps"
-    ])
-# ==============================================================================
-
 import io
+
 import streamlit as st
 from PIL import Image
 

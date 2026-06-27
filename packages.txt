@@ -1,6 +1,5 @@
-build-essential
 libgl1-mesa-glx
 libglib2.0-0
-libgomp1
-liblmdb-dev
-python3-dev
+libsm6
+libxrender1
+libxext6
