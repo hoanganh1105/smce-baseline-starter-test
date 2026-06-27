@@ -28,4 +28,5 @@ imgaug==0.4.0
 albumentations==1.4.2 
 lmdb>=1.0.0 
 
-vietocr==0.3.13 --no-deps
+# Cài đặt VietOCR độc lập không kèm phụ thuộc qua link trực tiếp
+https://files.pythonhosted.org/packages/fd/6d/8212e3e5bc680d2870e6c5cb19cb07b2cc8e44eb28d84bc13359db5a0fe7/vietocr-0.3.13-py3-none-any.whl
