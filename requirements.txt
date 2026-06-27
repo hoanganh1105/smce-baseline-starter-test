@@ -28,4 +28,4 @@ imgaug==0.4.0
 albumentations==1.4.2 
 lmdb>=1.0.0 
 
---no-deps vietocr==0.3.13
+vietocr==0.3.13 --no-deps
